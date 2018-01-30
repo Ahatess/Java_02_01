@@ -1,8 +1,16 @@
 package com.company;
-
+import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+	System.out.println("Įrašykite savo vardą");
+	Scanner sc = new Scanner(System.in);
+
+	String vardas = sc.nextLine();
+	System.out.println(vardas);
+	System.out.println(vardas);
+	System.out.println(vardas);
+	System.out.println(vardas);
+	System.out.println(vardas);
     }
 }
